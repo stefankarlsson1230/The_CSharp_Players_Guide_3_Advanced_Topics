@@ -7,27 +7,6 @@ Chapter 33: Managing Larger Programs
     4. Library Project – Build a reusable library.
     5. Class Library Tester – Build one program that imports another.
 
-Project 2: Dungeon Map Renderer
-Topics Covered: Arrays, Loops, Console Color, Enums, Pattern Matching
-Overview:
-Render a 2D dungeon map in the console using characters and colors. Let the user place walls, rooms, and symbols.
-Core Features:
-    • 2D char[,] array to represent the map
-    • Colorize symbols using ANSI escape codes (\e)
-    • Display with Console.SetCursorPosition
-    • Use enums for tile types
-    • Optional: Save/load to a file
-Start After:
-    • Chapter 8 (Console 2.0)
-    • Chapter 11 (Looping)
-    • Chapter 12 (Arrays)
-    • Chapter 33 (Managing Larger Programs – optional)
-You’ll need:
-    • Console cursor manipulation
-    • 2D arrays
-    • Basic rendering logic
-
-
 Chapter 34: Methods Revisited
     1. Optional Greeting – Default param "Hello".\n2. Named Arguments – Use out-of-order named calls.\n3. params Total – Sum an array of values.\n4. ref Swap – Use ref to swap two variables.\n5. Extension Method – Add .ToLeet() to string.
 
@@ -36,29 +15,6 @@ Chapter 35: Error Handling
 
 Chapter 36: Delegates
     1. Math Delegate – Pass function to compute.\n2. Multicast Delegate – Chain multiple methods.\n3. Anonymous Function – Use inline method.\n4. Predicate Filter – Filter list with delegate.\n5. Strategy Pattern – Use delegate to choose action.
-
-Project 3: Battle Simulator
-Topics Covered: Inheritance, Interfaces, Polymorphism, Records, Delegates
-Overview:
-Create a text-based battle simulator with warriors, mages, and archers each having unique abilities and strategies.
-Core Features:
-    • Base Fighter class with Attack(), Defend() methods
-    • Derived classes override behavior
-    • Interface ISpecialMove
-    • Use delegate to define and plug in strategies
-    • Use records for immutable battle results log
-Start After:
-    • Chapter 25 (Inheritance)
-    • Chapter 26 (Polymorphism)
-    • Chapter 27 (Interfaces)
-    • Chapter 36 (Delegates)
- You’ll need:
-    • Polymorphic behaviors
-    • Strategy patterns via delegates
-    • Dynamic behavior through interfaces
-
-
-
 
 Chapter 37: Events
     1. Event Firing – Simulate button click.\n2. Alarm Clock – Fire event on timeout.\n3. Game Health Event – Trigger on zero HP.\n4. Custom EventArgs – Send extra data with event.\n5. Multi Subscriber – Multiple methods respond to one event.
@@ -69,30 +25,6 @@ Chapter 38: Lambdas
 Chapter 39: Files
     1. Write Notes – Save text to a file.\n2. Read File – Load and display contents.\n3. Word Counter – Count words in file.\n4. File Search – Find a word in a file.\n5. Directory Scanner – List all files in folder.
 
-
-Project 4: Personal Finance Tracker
-Topics Covered: File I/O, Static Classes, Records, Tuples, Properties, Exception Handling
-Overview:
-Track income and expenses, categorize them, generate reports, and save/load to a file.
-Core Features:
-    • Transaction record with amount, date, category
-    • Monthly summaries using GroupBy
-    • Command-based interface for adding/removing data
-    • Use static utility class for formatting
-    • Exception handling for file operations and input
-Start After:
-    • Chapter 39 (Files)
-    • Chapter 35 (Error Handling)
-    • Chapter 20 (Properties)
-    • Chapter 30 (Generics) – optional for reusable components
-You’ll need:
-    • Record-based data storage
-    • File persistence
-    • User input and validation
-    • Exception handling for resilience
-
-
-
 Chapter 40: Pattern Matching
     1. Type Check – Match on object types.\n2. Guard Pattern – Match with conditions.\n3. Property Match – Match on property values.\n4. Shape Matcher – Match multiple shapes and respond.\n5. Pattern Router – Use pattern match for command routing.
 
@@ -100,55 +32,8 @@ Chapter 41: Operator Overloading
     1. Vector + Vector – Overload + for struct.\n2. Card Comparison – Add > and <.\n3. Inventory Indexer – Access item via index.\n4. Unit Conversion – Implicit conversion between units.\n5. Complex Math – Add math operators to complex number class.
 
 
-Project 5: RPG Quest Engine
-Topics Covered: Inheritance, Interfaces, Events, Delegates, Enums, JSON Serialization
-Overview:
-Create a simple quest system where players can accept, complete, and chain quests with rewards and branching logic.
-Core Features:
-    • Quest base class with derived types (Fetch, Kill, Escort)
-    • Interface IRewardable
-    • Delegate OnQuestComplete for callbacks
-    • Enum for quest difficulty
-    • Save/load quest state from JSON (simulate persistence)
-Start After:
-    • Chapter 23 (Design Principles)
-    • Chapter 25–27 (OOP: Inheritance, Interfaces)
-    • Chapter 36 (Delegates)
-    • Optional: Chapter 29 (Records), Chapter 39 (Files)
-You’ll need:
-    • OOP composition
-    • Dynamic behaviors through events and interfaces
-    • Record types for results
-    • Delegate callbacks for quest completion
-
-
-
-
 Chapter 42: Query Expressions (LINQ)
     1. Filter Names – Show only names that start with 'A'.\n2. Student Grades – Compute average and order.\n3. Group Products – Group by category.\n4. Join Data – Merge user and order list by ID.\n5. LINQ Report – Transform a full list into a readable output.
-
-
- Project 6: Inventory Manager with Search
-Topics Covered: Classes, Lists, LINQ, Pattern Matching, File I/O
-Overview:
-Create a program to manage inventory items, with add, remove, search, sort, and filter functionality.
-Core Features:
-    • Use List<Item> where Item is a class with Name, Type, Value
-    • Search by name with LINQ
-    • Filter by item type using pattern matching
-    • Save/load items to/from a text file
-    • Use optional parameters in lambda-based filters
-Start After:
-    • Chapter 18 (Classes)
-    • Chapter 27 (Interfaces)
-    • Chapter 32 (Useful Types – especially List<T>)
-    • Chapter 42 (LINQ / Query Expressions)
- You’ll need:
-    • Collections (like List<T>)
-    • File I/O
-    • Pattern matching and object filtering with LINQ
-
-
 
 
 Chapter 43: Threads
@@ -164,30 +49,6 @@ Chapter 44: Advanced Threading Tools
     3. ManualResetEvent – Start multiple tasks that wait for a single release.
     4. Thread Timing – Use Stopwatch to compare parallel vs serial execution.
     5. Simulated Work Queue – Launch multiple threads pulling from a shared queue.
-
-
-Project 7: Recipe Recommendation System
-Topics Covered: LINQ, Collections, Files, Delegates, Pattern Matching, Records
-Overview:
-Build an app that recommends recipes based on available ingredients, diet preferences, and calories.
-Core Features:
-    • Load recipe data from a JSON/text file
-    • Filter recipes with LINQ queries
-    • Use pattern matching on food types
-    • Use delegates for flexible filtering logic
-    • Define recipes as record types
-Start After:
-    • Chapter 32 (Useful Types)
-    • Chapter 34 (Methods Revisited – optional/named/default)
-    • Chapter 35 (Error Handling)
-    • Chapter 42 (LINQ Queries)
-You’ll need:
-    • LINQ and filtering
-    • Delegates for search criteria
-    • File reading/writing
-    • Optionally: record types and pattern matching
-
-
 
 
 Chapter 45: Tasks
