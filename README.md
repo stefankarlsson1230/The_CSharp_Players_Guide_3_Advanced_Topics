@@ -13,7 +13,13 @@ instances of all four classes. There are no conflicts with Sheep and Cow, so mak
 new instances of those with new Sheep() and new Cow(). Resolve the conflicting Pig classes with
 either an alias or fully qualified names.
 
+- [x] Project 2 - Dueling Traditions
+  - Do the following with one of the larger programs you have created in another challenge.
+    - Give your program a traditional Program and Main method instead of top-level statements.
+    - Place every type in a namespace.
+    - Place each type in its own file. (Small types like enumerations or records can be an exception.)
 
+ 
 Chapter 34: Methods Revisited
     1. Optional Greeting – Default param "Hello".\n2. Named Arguments – Use out-of-order named calls.\n3. params Total – Sum an array of values.\n4. ref Swap – Use ref to swap two variables.\n5. Extension Method – Add .ToLeet() to string.
 
