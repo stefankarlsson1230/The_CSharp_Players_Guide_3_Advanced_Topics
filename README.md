@@ -1,11 +1,18 @@
 # The C# Player's Guide - Part 3: Advanced Topics
 
-Chapter 33: Managing Larger Programs
-    1. Split Files – Move classes to separate files.
-    2. Custom Namespace – Create and use your own.
-    3. Reorganize Methods – Move to utility class.
-    4. Library Project – Build a reusable library.
-    5. Class Library Tester – Build one program that imports another.
+## Chapter 33: Managing Larger Programs
+
+### From The Book
+- [x] Project 1 - The Feud
+  - Create a Sheep class in the IField namespace (fully qualified name of IField.Sheep).
+  - Create a Pig class in the IField namespace (fully qualified name of IField.Pig).
+  - Create a Cow class in the McDroid namespace (fully qualified name of McDroid.Cow).
+  - Create a Pig class in the McDroid namespace (fully qualified name of McDroid.Pig).
+  - For your main method, add using directives for both IField and McDroid namespaces. Make new
+instances of all four classes. There are no conflicts with Sheep and Cow, so make sure you can create
+new instances of those with new Sheep() and new Cow(). Resolve the conflicting Pig classes with
+either an alias or fully qualified names.
+
 
 Chapter 34: Methods Revisited
     1. Optional Greeting – Default param "Hello".\n2. Named Arguments – Use out-of-order named calls.\n3. params Total – Sum an array of values.\n4. ref Swap – Use ref to swap two variables.\n5. Extension Method – Add .ToLeet() to string.
