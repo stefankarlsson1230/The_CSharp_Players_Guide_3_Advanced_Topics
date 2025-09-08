@@ -20,7 +20,16 @@ either an alias or fully qualified names.
     - Place each type in its own file. (Small types like enumerations or records can be an exception.)
 
  
-Chapter 34: Methods Revisited
+## Chapter 34: Methods Revisited
+
+### From The Book
+- [x] Project 1 - Safer Number Crunching
+  - Create a program that asks the user for an int value. Use the static int.TryParse(string s,
+out int result) method to parse the number. Loop until they enter a valid value.
+  - Extend the program to do the same for both double and bool.
+
+
+### From ChatGPT
     1. Optional Greeting – Default param "Hello".\n2. Named Arguments – Use out-of-order named calls.\n3. params Total – Sum an array of values.\n4. ref Swap – Use ref to swap two variables.\n5. Extension Method – Add .ToLeet() to string.
 
 Chapter 35: Error Handling
