@@ -50,7 +50,12 @@ that indicates the frequency of heads coming up, which should default to 0.5, or
 - [x] Project 3 - Optional Greeting
   - Default param "Hello".
 
-Named Arguments – Use out-of-order named calls.\n3. params Total – Sum an array of values.\n4. ref Swap – Use ref to swap two variables.\n5. Extension Method – Add .ToLeet() to string.
+- [x] Project 4 - Named Arguments
+  - Use out-of-order named calls.
+
+params Total – Sum an array of values.
+ref Swap – Use ref to swap two variables.
+Extension Method – Add .ToLeet() to string.
 
 Chapter 35: Error Handling
     1. Safe Divide – Handle division by zero.\n2. TryParse Input – Validate int safely.\n3. Custom Exception – Define and throw custom error.\n4. Retry on Error – Ask again until success.\n5. Exception Logger – Write caught exception to file.
