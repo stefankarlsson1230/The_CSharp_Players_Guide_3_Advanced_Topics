@@ -59,7 +59,9 @@ that indicates the frequency of heads coming up, which should default to 0.5, or
 - [x] Project 6 - ref Swap
   - Use ref to swap two variables.
 
-Extension Method – Add .ToLeet() to string.
+- [x] Project 7 - Extension Method
+  - Add .ToLeet() to string.
+
 
 Chapter 35: Error Handling
     1. Safe Divide – Handle division by zero.\n2. TryParse Input – Validate int safely.\n3. Custom Exception – Define and throw custom error.\n4. Retry on Error – Ask again until success.\n5. Exception Logger – Write caught exception to file.
