@@ -56,8 +56,9 @@ that indicates the frequency of heads coming up, which should default to 0.5, or
 - [x] Project 5 - Params Total
   - Sum an array of values.
 
- 
-ref Swap – Use ref to swap two variables.
+- [x] Project 6 - ref Swap
+  - Use ref to swap two variables.
+
 Extension Method – Add .ToLeet() to string.
 
 Chapter 35: Error Handling
