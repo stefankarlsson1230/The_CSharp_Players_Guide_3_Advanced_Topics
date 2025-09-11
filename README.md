@@ -101,7 +101,10 @@ repeatedly, displaying whether the number is good or bad depending on the filter
 - [x] Project 2 - Math Delegate
   - Pass function to compute.
 
-Multicast Delegate – Chain multiple methods.\n3. Anonymous Function – Use inline method.\n4. Predicate Filter – Filter list with delegate.\n5. Strategy Pattern – Use delegate to choose action.
+- [ ] Project 3 - Multicast Delegate
+  - Chain multiple methods.
+
+Anonymous Function – Use inline method.\n4. Predicate Filter – Filter list with delegate.\n5. Strategy Pattern – Use delegate to choose action.
 
 Chapter 37: Events
     1. Event Firing – Simulate button click.\n2. Alarm Clock – Fire event on timeout.\n3. Game Health Event – Trigger on zero HP.\n4. Custom EventArgs – Send extra data with event.\n5. Multi Subscriber – Multiple methods respond to one event.
