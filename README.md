@@ -84,7 +84,21 @@ the program. Run the program at least once like this to see it crash.
     - Put in a try/catch block to handle the exception and display the results.
 
 
-Chapter 36: Delegates
+## Chapter 36: Delegates
+
+### From The Book
+- [x] Project 1 - The Sieve
+  - Create a Sieve class with a public bool IsGood(int number) method. This class needs a
+constructor with a delegate parameter that can be invoked later within the IsGood method. Hint:
+You can make your own delegate type or use Func<int, bool>.
+  - Define methods with an int parameter and a bool return type for the following: (1) returns true
+for even numbers, (2) returns true for positive numbers, and (3) returns true for multiples of 10.
+  - Create a program that asks the user to pick one of those three filters, constructs a new Sieve
+instance by passing in one of those methods as a parameter, and then ask the user to enter numbers
+repeatedly, displaying whether the number is good or bad depending on the filter in use.
+
+
+### From ChatGPT
     1. Math Delegate – Pass function to compute.\n2. Multicast Delegate – Chain multiple methods.\n3. Anonymous Function – Use inline method.\n4. Predicate Filter – Filter list with delegate.\n5. Strategy Pattern – Use delegate to choose action.
 
 Chapter 37: Events
