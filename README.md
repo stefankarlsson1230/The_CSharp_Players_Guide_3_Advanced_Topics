@@ -158,7 +158,7 @@ to grow, notify, and harvest forever.
 - [x] Project 3 - Alarm Clock
   - Fire event on timeout.
 
-- [ ] Project 4 - Custom EventArgs
+- [x] Project 4 - Custom EventArgs
   - Send extra data with event.
 
 
