@@ -155,8 +155,12 @@ to grow, notify, and harvest forever.
 - [x] Project 2 - Event Firing
   - Simulate button click.
 
-  
-Alarm Clock – Fire event on timeout.\n3. Game Health Event – Trigger on zero HP.\n4. Custom EventArgs – Send extra data with event.
+- [x] Project 3 - Alarm Clock
+  - Fire event on timeout.
+
+- [ ] Project 4 - Custom EventArgs
+  - Send extra data with event.
+
 
 Chapter 38: Lambdas
     1. Multiply – x => x * 2\n2. Filter List – List.FindAll()\n3. Sort by Length – Use lambda to sort\n4. Projection – Transform objects with Select()\n5. Counter Closure – Return lambda that increments internal count.
