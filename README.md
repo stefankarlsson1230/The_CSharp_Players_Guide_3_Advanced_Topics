@@ -170,10 +170,6 @@ to grow, notify, and harvest forever.
 of named methods for each of the three filters.
 
 
-
-### From chatGPT
-    1. Multiply – x => x * 2\n2. Filter List – List.FindAll()\n3. Sort by Length – Use lambda to sort\n4. Projection – Transform objects with Select()\n5. Counter Closure – Return lambda that increments internal count.
-
 Chapter 39: Files
     1. Write Notes – Save text to a file.\n2. Read File – Load and display contents.\n3. Word Counter – Count words in file.\n4. File Search – Find a word in a file.\n5. Directory Scanner – List all files in folder.
 
