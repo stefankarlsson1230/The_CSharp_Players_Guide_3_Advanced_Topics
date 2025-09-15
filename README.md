@@ -162,7 +162,16 @@ to grow, notify, and harvest forever.
   - Send extra data with event.
 
 
-Chapter 38: Lambdas
+## Chapter 38: Lambdas
+
+### From The Book
+- [x] Project 1 - The Lambda Sieve
+  - Modify your The Sieve program from Chapter 36 to use lambda expressions for the constructor instead
+of named methods for each of the three filters.
+
+
+
+### From chatGPT
     1. Multiply – x => x * 2\n2. Filter List – List.FindAll()\n3. Sort by Length – Use lambda to sort\n4. Projection – Transform objects with Select()\n5. Counter Closure – Return lambda that increments internal count.
 
 Chapter 39: Files
