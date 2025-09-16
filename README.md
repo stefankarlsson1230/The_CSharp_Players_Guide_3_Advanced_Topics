@@ -225,7 +225,7 @@ the user decides to complete the potion, end the program.
 - [x] Project 2 - Type Check
   - Match on object types.
   
-- [ ] Project 3 - Guard Pattern
+- [x] Project 3 - Guard Pattern
   - Match with conditions.
 
 - [ ] Project 4 - Property Match
