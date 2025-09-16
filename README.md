@@ -170,7 +170,23 @@ to grow, notify, and harvest forever.
 of named methods for each of the three filters.
 
 
-Chapter 39: Files
+## Chapter 39: Files
+
+### From The Book
+- [x] Project 1 - The Long Game
+  - When the program starts, ask the user to enter their name.
+  - By default, the player starts with a score of 0.
+  - Add 1 point to their score for every keypress they make.
+  - Display the player’s updated score after each keypress.
+  - When the player presses the Enter key, end the game. Hint: the following code reads a keypress and
+checks whether it was the Enter key: Console.ReadKey().Key == ConsoleKey.Enter
+  - When the player presses Enter, save their score in a file. Hint: Consider saving this to a file named
+[username].txt. For this challenge, you can assume the user doesn’t enter a name that would produce
+an illegal file name (such as *).
+  - When a user enters a name at the start, if they already have a previously saved score, start with that
+score instead.
+
+### From chatGPT
     1. Write Notes – Save text to a file.\n2. Read File – Load and display contents.\n3. Word Counter – Count words in file.\n4. File Search – Find a word in a file.\n5. Directory Scanner – List all files in folder.
 
 Chapter 40: Pattern Matching
