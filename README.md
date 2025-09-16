@@ -187,8 +187,14 @@ an illegal file name (such as *).
 score instead.
 
 ### From chatGPT
-    1. Write Notes – Save text to a file.\n2. Read File – Load and display contents.\n3. Word Counter – Count words in file.\n4. File Search – Find a word in a file.\n5. Directory Scanner – List all files in folder.
+- [x] Project 2
+  - Write Notes – Save text to a file.
+  - Read File – Load and display contents.
+  - Word Counter – Count words in file.
+  - File Search – Find a word in a file.
+  - Directory Scanner – List all files in folder.
 
+ 
 Chapter 40: Pattern Matching
     1. Type Check – Match on object types.\n2. Guard Pattern – Match with conditions.\n3. Property Match – Match on property values.\n4. Shape Matcher – Match multiple shapes and respond.\n5. Pattern Router – Use pattern match for command routing.
 
