@@ -222,7 +222,15 @@ the user decides to complete the potion, end the program.
 
 
 ### From ChatGPT
-    1. Type Check – Match on object types.\n2. Guard Pattern – Match with conditions.\n3. Property Match – Match on property values.\n4. Shape Matcher – Match multiple shapes and respond.\n5. Pattern Router – Use pattern match for command routing.
+- [x] Project 2 - Type Check
+  - Match on object types.
+  
+- [ ] Project 3 - Guard Pattern
+  - Match with conditions.
+
+- [ ] Project 4 - Property Match
+  - Match on property values.
+
 
 Chapter 41: Operator Overloading
     1. Vector + Vector – Overload + for struct.\n2. Card Comparison – Add > and <.\n3. Inventory Indexer – Access item via index.\n4. Unit Conversion – Implicit conversion between units.\n5. Complex Math – Add math operators to complex number class.
