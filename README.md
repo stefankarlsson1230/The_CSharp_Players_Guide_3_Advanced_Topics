@@ -258,14 +258,17 @@ Direction as arguments and produces a new BlockCoordinate that is a block in the
 indicated. If we started at (4, 3) and went east, we should end up at (4, 4).
     - Write code to ensure that both operators work correctly.
 
-- [ ] Project 2 - Indexing Operand City
+- [x] Project 2 - Indexing Operand City
   - Create the ability to index a BlockCoordinate by a number: block[0] for the block’s row and block[1] for the block’s column. Add a get-only indexer to the BlockCoordinate class.
   - Objectives:
     - Add a get-only indexer to BlockCoordinate to access items by an index: index 0 is the row, and
 index 1 is the column.
 
-### From ChatGPT
-    1. Vector + Vector – Overload + for struct.\n2. Card Comparison – Add > and <.\n3. Inventory Indexer – Access item via index.\n4. Unit Conversion – Implicit conversion between units.\n5. Complex Math – Add math operators to complex number class.
+- [x] Project 3 - Converting Directions to Offsets
+  - It would be convenient to convert a direction to a BlockOffset. For example, the direction north would become an offset of (-1, 0). 
+  - Objectives:
+    - Add a custom conversion to BlockOffset that converts from Direction to BlockOffset.
+
 
 
 Chapter 42: Query Expressions (LINQ)
