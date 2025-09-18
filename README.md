@@ -297,7 +297,19 @@ x.Where(n => n < 0), etc.)
 
 
 ### From ChatGPT
-    1. Filter Names – Show only names that start with 'A'.\n2. Student Grades – Compute average and order.\n3. Group Products – Group by category.\n4. Join Data – Merge user and order list by ID.\n5. LINQ Report – Transform a full list into a readable output.
+
+- [x] Project 2 - Filter Names
+  - Show only names that start with 'A'.
+
+- [ ] Project 3 - Student Grades
+  - Compute average and order.
+
+- [ ] Project 4 - Group Products
+  - Group by category.
+  
+- [ ] Project 5 - Join Data
+  - Merge user and order list by ID.
+
 
 
 Chapter 43: Threads
