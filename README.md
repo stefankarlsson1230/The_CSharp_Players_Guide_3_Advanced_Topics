@@ -304,7 +304,7 @@ x.Where(n => n < 0), etc.)
 - [x] Project 3 - Student Grades
   - Compute average and order.
 
-- [ ] Project 4 - Group Products
+- [x] Project 4 - Group Products
   - Group by category.
   
 - [ ] Project 5 - Join Data

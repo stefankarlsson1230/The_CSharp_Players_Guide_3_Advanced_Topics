@@ -1,6 +1,6 @@
 ﻿// Student Grades - Compute average and order.
 
-// 10 student from chatGPT
+// 10 students from chatGPT
 List<Student> students = new List<Student>
 {
     new Student("Alice Johnson", 87),
