@@ -329,7 +329,7 @@ correctly identified the repeat. If they are not, indicate that they got it wron
 - [x] Project 2 - Basic Thread Start
   - Launch a thread that prints “Working…” 5 times.
 
-- [ ] Project 3 - Multi-Printer
+- [x] Project 3 - Multi-Printer
   - Launch two threads to print different characters simultaneously.
  
 - [ ] Project 4 - Thread Join
