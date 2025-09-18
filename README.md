@@ -299,9 +299,9 @@ x.Where(n => n < 0), etc.)
 ### From ChatGPT
 
 - [x] Project 2 - Filter Names
-  - Show only names that start with 'A'.
+  - Show only names that start with 'A' or 'a'.
 
-- [ ] Project 3 - Student Grades
+- [x] Project 3 - Student Grades
   - Compute average and order.
 
 - [ ] Project 4 - Group Products

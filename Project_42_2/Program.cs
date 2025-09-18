@@ -1,4 +1,4 @@
-﻿// Filter Names - Show only names that start with 'A'.
+﻿// Filter Names - Show only names that start with 'A' or 'a'.
 
 using System.Text;
 
