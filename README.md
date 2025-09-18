@@ -332,7 +332,7 @@ correctly identified the repeat. If they are not, indicate that they got it wron
 - [x] Project 3 - Multi-Printer
   - Launch two threads to print different characters simultaneously.
  
-- [ ] Project 4 - Thread Join
+- [x] Project 4 - Thread Join
   - Wait for a worker thread to finish before continuing.
 
 - [ ] Project 5 - Race Condition Demo
