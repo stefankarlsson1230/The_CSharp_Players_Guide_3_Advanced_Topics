@@ -325,13 +325,22 @@ the user presses a key, check if the last two numbers are the same. If they are,
 correctly identified the repeat. If they are not, indicate that they got it wrong.
     - Use lock statements to ensure that only one thread accesses the shared data at a time.
 
-
 ### From ChatGPT
-    1. Basic Thread Start – Launch a thread that prints “Working…” 5 times.
-    2. Multi-Printer – Launch two threads to print different characters simultaneously.
-    3. Thread Join – Wait for a worker thread to finish before continuing.
-    4. Race Condition Demo – Show how two threads can corrupt a shared counter.
-    5. Thread-Safe Counter – Fix the above using lock.
+- [x] Project 2 - Basic Thread Start
+  - Launch a thread that prints “Working…” 5 times.
+
+- [ ] Project 3 - Multi-Printer
+  - Launch two threads to print different characters simultaneously.
+ 
+- [ ] Project 4 - Thread Join
+  - Wait for a worker thread to finish before continuing.
+
+- [ ] Project 5 - Race Condition Demo
+  - Show how two threads can corrupt a shared counter.
+
+- [ ] Project 6 - Thread-Safe Counter
+  - Fix the above using lock.
+
 
 Chapter 44: Advanced Threading Tools
     1. Thread Pool Task – Use ThreadPool.QueueUserWorkItem to run a method.
