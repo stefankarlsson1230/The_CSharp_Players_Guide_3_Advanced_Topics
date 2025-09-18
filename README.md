@@ -338,7 +338,7 @@ correctly identified the repeat. If they are not, indicate that they got it wron
 - [x] Project 5 - Race Condition Demo
   - Show how two threads can corrupt a shared counter.
 
-- [ ] Project 6 - Thread-Safe Counter
+- [x] Project 6 - Thread-Safe Counter
   - Fix the above using lock.
 
 
