@@ -307,8 +307,6 @@ x.Where(n => n < 0), etc.)
 - [x] Project 4 - Group Products
   - Group by category.
   
-- [ ] Project 5 - Join Data
-  - Merge user and order list by ID.
 
 
 
