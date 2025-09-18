@@ -335,7 +335,7 @@ correctly identified the repeat. If they are not, indicate that they got it wron
 - [x] Project 4 - Thread Join
   - Wait for a worker thread to finish before continuing.
 
-- [ ] Project 5 - Race Condition Demo
+- [x] Project 5 - Race Condition Demo
   - Show how two threads can corrupt a shared counter.
 
 - [ ] Project 6 - Thread-Safe Counter
