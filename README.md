@@ -367,12 +367,26 @@ wait for the next word. You can generate many words in parallel this way. Hint: 
 time and output logic to another async method may make this easier.
 
 
-Chapter 45: Tasks
-    1. Simple Task – Create a task that prints after a delay.
-    2. Parallel Tasks – Run 3 tasks at once to simulate downloads.
-    3. Task Continuation – Chain a second task after the first.
-    4. Task.Result – Retrieve a computed value from a Task<int>.
-    5. Task WhenAll – Wait for a set of tasks to complete and combine results.
+## Chapter 45: Dynamic Objects
+
+### From The Book
+- [x] Project 1 - Uniter of Adds
+  - The four great adds:
+    ```
+    public static class Adds
+    {
+    public static int Add(int a, int b) => a + b;
+    public static double Add(double a, double b) => a + b;
+    public static string Add(string a, string b) => a + b;
+    public static DateTime Add(DateTime a, TimeSpan b) => a + b;
+    }
+    ```
+-   The code is identical, but the four types involved demand four different methods.
+  - Objectives:
+    - Make a single Add method that can replace all four of the above methods using dynamic.
+    - Add code to your main method to call the new method with two ints, two doubles, two strings,
+and a DateTime and TimeSpan, and display the results.
+
 
 Chapter 46: async and await
     1. Async Message – Create a method that uses await Task.Delay.
