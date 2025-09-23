@@ -359,6 +359,13 @@ several seconds, and my math indicates that a 10-letter word may take nearly two
   - Use DateTime.Now before and after the async task runs to measure the wall clock time it took.
 Display the time elapsed.
 
+- [x] Project 2 - Many Random Words
+  - Modify your program from the previous challenge to allow the main thread to keep waiting for the
+user to enter more words. For every new word entered, create and run a task to compute the attempt
+count and the time elapsed and display the result, but then let that run asynchronously while you
+wait for the next word. You can generate many words in parallel this way. Hint: Moving the elapsed
+time and output logic to another async method may make this easier.
+
 
 Chapter 45: Tasks
     1. Simple Task – Create a task that prints after a delay.
