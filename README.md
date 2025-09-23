@@ -387,6 +387,42 @@ time and output logic to another async method may make this easier.
     - Add code to your main method to call the new method with two ints, two doubles, two strings,
 and a DateTime and TimeSpan, and display the results.
 
+- [x] Project 2 - The Robot Factory
+  - Robots are manufactured after collecting their details, all of which are optional except for a numeric ID. After the information is
+collected, the robot is created by displaying the robot’s details in the console. Here are two examples:
+    ```
+    You are producing robot #1.
+    Do you want to name this robot? no
+    Does this robot have a specific size? no
+    Does this robot need to be a specific color? no
+    ID: 1
+    You are producing robot #2.
+    Do you want to name this robot? yes
+    What is its name? R2-D2
+    Does this robot have a specific size? yes
+    What is its height? 9
+    What is its width? 4
+    Does this robot need to be a specific color? yes
+    What color? azure
+    ID: 2
+    Name: R2-D2
+    Height: 9
+    Width: 4
+    Color: azure
+    ```
+  - Create a new dynamic variable, holding a reference to an ExpandoObject.
+  - Give the dynamic object an ID property whose type is int and assign each robot a new number.
+  - Ask the user if they want to name the robot, and if they do, collect it and store it in a Name property.
+  - Ask if they want to provide a size for the robot. If so, collect a width and height from the user and
+store those in Width and Height properties.
+  - Ask if they want to choose a color for the robot. If so, store their choice in a Color property.
+  - Display all existing properties for the robot to the console window using the following code:
+```
+    foreach (KeyValuePair<string, object> property in (IDictionary<string, object>)robot)
+        Console.WriteLine($"{property.Key}: {property.Value}");
+```
+  - Loop repeatedly to allow the user to design and build multiple robots.
+
 
 Chapter 46: async and await
     1. Async Message – Create a method that uses await Task.Delay.
