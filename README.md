@@ -417,19 +417,15 @@ collected, the robot is created by displaying the robot’s details in the console
 store those in Width and Height properties.
   - Ask if they want to choose a color for the robot. If so, store their choice in a Color property.
   - Display all existing properties for the robot to the console window using the following code:
-```
-    foreach (KeyValuePair<string, object> property in (IDictionary<string, object>)robot)
-        Console.WriteLine($"{property.Key}: {property.Value}");
-```
-  - Loop repeatedly to allow the user to design and build multiple robots.
+    ```
+        foreach (KeyValuePair<string, object> property in (IDictionary<string, object>)robot)
+            Console.WriteLine($"{property.Key}: {property.Value}");
+    ```
+   - Loop repeatedly to allow the user to design and build multiple robots.
 
 
-Chapter 46: async and await
-    1. Async Message – Create a method that uses await Task.Delay.
-    2. Await Result – Download a fake file with simulated delay and print “done”.
-    3. UI-Friendly Delay – Add delay in a loop without freezing console.
-    4. Async Data Fetcher – Await a method that returns a string after delay.
-    5. Multiple Await – Run two awaits in sequence and one in parallel.
+## Chapter 46: Unsafe Code
+- No asssigments for this chapter.     
 
 Chapter 47: Structs vs Classes (Deep Dive)
     1. Value Copy Test – Show how struct copies differ from reference sharing.
