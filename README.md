@@ -425,7 +425,7 @@ store those in Width and Height properties.
 
 
 ## Chapter 46: Unsafe Code
-- No asssigments for this chapter.     
+- No projects for this chapter.     
 
 Chapter 47: Structs vs Classes (Deep Dive)
     1. Value Copy Test – Show how struct copies differ from reference sharing.
