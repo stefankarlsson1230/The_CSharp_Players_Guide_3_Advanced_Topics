@@ -427,37 +427,18 @@ store those in Width and Height properties.
 ## Chapter 46: Unsafe Code
 - No projects for this chapter.     
 
-Chapter 47: Structs vs Classes (Deep Dive)
-    1. Value Copy Test – Show how struct copies differ from reference sharing.
-    2. Ref vs Value Performance – Measure impact of passing large struct by value vs ref.
-    3. Mutation Demo – Show how modifying one affects the other.
-    4. Ref Struct Creation – Create a ref struct and demonstrate its usage limits.
-    5. Immutable Structs – Create a fully read-only struct for safety.
 
-Chapter 48: Ref Locals and Ref Returns
-    1. Ref Swap – Use ref return to swap elements in an array.
-    2. Ref Max Element – Return a reference to the largest value in an array.
-    3. Ref Accessor – Return a ref to a private field and modify it externally.
-    4. Ref Chain – Use one ref return to feed another ref method.
-    5. Span Ref Return – Combine ref return and slicing to locate data.
+## Chapter 47: Other Language Features
+- No projects for this chapter.
 
-Chapter 49: Unsafe Code
-    1. Pointer Basics – Create and print the address of a pointer.
-    2. Pointer Arithmetic – Walk through an array using pointers.
-    3. Fixed Keyword – Use fixed to pin an array during pointer access.
-    4. Compare Safe vs Unsafe – Time unsafe memory copy vs safe copy.
-    5. Dangerous Write – Simulate a memory corruption scenario (with care!).
 
-Chapter 50: Nullable Reference Types
-    1. Enable Nullable – Turn on nullable warnings and refactor.
-    2. ?. and ?? operators – Use to access and fallback from nulls safely.
-    3. Nullable Class Field – Design a class with nullable vs non-nullable fields.
-    4. Null Safety Formatter – Create a method that returns fallback if null.
-    5. Assert Not Null – Use ! to assert a non-null value and explain risks.
+Chapter 48: Beyond a Single Projects
 
-Chapter 51: Attributes
-    1. Create Attribute – Define [GameHint] and apply it to a class.
-    2. Attribute Reader – Use reflection to read custom attributes.
-    3. Mark For Save – Tag properties with [Saveable] and serialize only those.
-    4. Multiple Attributes – Create two attributes and apply both to one class.
-    5. Attribute Validator – Enforce rules using attribute-based logic.
+
+Chapter 49: Compiling in Depth
+
+
+Chapter 50: .NET
+
+
+Chapter 51: Publishing
