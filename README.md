@@ -451,6 +451,18 @@ writes the given text without a new line in the given color.
      ColoredConsole.WriteLine("Hello " + name, ConsoleColor.Green);
      ```
 
+- [x] Project 2 - The Great Humanizer
+  - Start by making a new program that does what was shown above: displaying the raw DateTime.
+      ```
+      Console.WriteLine($"When is the feast? {DateTime.UtcNow.AddHours(30)}");
+      ```
+  - Add the NuGet package Humanizer.Core to your project using the instructions in the level. This
+NuGet package provides many extension methods (Level 34) that make it easy to display things in
+human-readable formats.
+  - Call the new DateTime extension method Humanize() provided by this library to get a better
+format. You will also need to add a using Humanizer; directive to call this.
+  - Run the program with a few different hour offsets (for example, DateTime.UtcNow.AddHours(
+2.5) and DateTime.UtcNow.AddHours(50)) to see that it correctly displays a human-readable message.
 
 
 Chapter 49: Compiling in Depth
