@@ -432,7 +432,25 @@ store those in Width and Height properties.
 - No projects for this chapter.
 
 
-Chapter 48: Beyond a Single Projects
+## Chapter 48: Beyond a Single Projects
+
+### From The Book
+- [x] Project 1 - Colored Console
+  - Create a new console project from scratch.
+  - Add a second Class Library project to the solution.
+  - Add a static class, ColoredConsole, to the library project.
+  - Add the method public static string Prompt(string question) that writes question
+to the console window, then switches to cyan to get the user’s response all on the same line.
+  - Add the method public static void WriteLine(string text, ConsoleColor color)
+that writes the given text on its own line in the given color.
+  - Add the method public static void Write(string text, ConsoleColor color) that
+writes the given text without a new line in the given color.
+  - Add the right references between projects so that the main program can use the following code:
+     ```
+     string name = ColoredConsole.Prompt("What is your name?");
+     ColoredConsole.WriteLine("Hello " + name, ConsoleColor.Green);
+     ```
+
 
 
 Chapter 49: Compiling in Depth
