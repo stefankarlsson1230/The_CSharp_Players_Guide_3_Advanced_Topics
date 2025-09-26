@@ -465,7 +465,8 @@ format. You will also need to add a using Humanizer; directive to call this.
 2.5) and DateTime.UtcNow.AddHours(50)) to see that it correctly displays a human-readable message.
 
 
-Chapter 49: Compiling in Depth
+## Chapter 49: Compiling in Depth
+- No projects for this chapter.
 
 
 Chapter 50: .NET
