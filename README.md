@@ -473,4 +473,17 @@ format. You will also need to add a using Humanizer; directive to call this.
 - No projects for this chapter.
 
 
-Chapter 51: Publishing
+## Chapter 51: Publishing
+
+### From the Book
+- [x] Project 1 - Altar of Publication
+  - Select a program of yours for publication. This can be anything from Hello World to the most
+complex program you have made.
+  - Create a new publish profile. Choose appropriate settings based on how you want to publish your
+program.
+  - Publish your program.
+  - Package the output (for example, into a .zip file).
+  - Move the program to the target computer.
+  - Run the program successfully.
+  - Note: You will learn much by actually moving this to another computer. If you only have one, send
+it to a friend by email or the Internet. But if all of this fails, you can call the challenge done anyway.
