@@ -469,7 +469,8 @@ format. You will also need to add a using Humanizer; directive to call this.
 - No projects for this chapter.
 
 
-Chapter 50: .NET
+## Chapter 50: .NET
+- No projects for this chapter.
 
 
 Chapter 51: Publishing
